@@ -1,0 +1,314 @@
+@font-face{
+  font-family: "Siemens Global Bond";
+  src: url('siemens_global_bold.ttf');
+}
+
+@font-face{
+  font-family: "Siemens Global Roman";
+  src: url('siemens_global_roman.ttf');
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+  
+h1 {
+  font-family: "Siemens Global Bond";
+  color: #788791;
+}
+
+p {
+  font-family: "Siemens Global Roman";
+  color: #788791;
+}
+
+.container2 {
+  z-index: 1;
+  height: 100%;
+    width: 100%;
+    text-align: center;
+    /*
+    justify-content: center;
+    display: flex;  
+    */
+}
+
+.logo {
+}
+
+.logoteknodell {
+	
+	z-index: 1;
+}
+
+.contatos {
+  position: absolute;
+  bottom: 0;
+}
+
+/*
+.socio {
+  /*width: 50%;
+  float: right;
+  height: 100%;
+}
+*/
+
+.socio1 {
+	float: left;
+	height: 100%;
+}
+
+.socio2 {
+	height: 100%;
+}
+
+.socio1 h1 {
+}
+
+.socio2 h1 {
+}
+
+.siteemcontrucao {
+}
+
+.lista-contato {
+  list-style: none;
+  -webkit-padding-start: 0;
+}
+
+.item-lista {
+  display: flex;
+  margin-bottom: -10px;
+  
+}
+
+.item-lista p {
+  margin-left: 4%;
+  margin-bottom: 0;
+}
+
+.icons {
+}
+
+.nome {
+  position: relative;
+  margin-bottom: -20px;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  height: 70px;
+  margin-left: 20%;
+  margin-right: 20%;
+  
+}
+
+.areas {
+	-webkit-padding-start: 0;
+}
+
+.areas li {
+  display: inline-block;
+}
+
+.areas p {
+}
+
+.esquerda {
+	/*float: left;*/
+	height: 100%;
+	z-index: 2;
+	position: absolute;
+	left: 0;
+	display: block;
+}
+
+.direita {
+	/*float: right;*/
+	height: 100%;
+	z-index: 3;
+	position: absolute;
+	right: 0;
+	display: block;
+}
+
+/* Media queries*/
+@media (max-width: 767px) {
+
+  .esquerda {
+    width: 80px;
+  }
+
+  .direita {
+    width: 80px;
+  }
+
+  .logo {
+    height: 40%;
+  }
+
+  .logoteknodell {
+    margin-top: 20%;
+    width: 55%;
+  }
+
+  .siteemcontrucao {
+    font-size: 180%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .areas p {
+    font-size: 60%;
+  }
+
+  .contatos {
+    width: 34%;
+    margin-left: 30%;
+    margin-right: 33%;
+    margin-bottom: 5%;
+  }
+
+  .socio2 {
+    float: left;
+  }
+  
+  .socio1 h1{
+    font-size: 100%;
+  }
+
+  .socio2 h1 {
+    font-size: 100%;
+  }
+
+  .item-lista p {
+    font-size: 80%;
+  }
+
+  .icons {
+      width: 15px;
+      height: 15px;
+      margin-top: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1335px)  {
+
+  .esquerda {
+    width: 180px;
+  }
+
+  .direita {
+    width: 180px;
+  }
+
+  .logo {
+    height: 40%;
+  }
+
+  .logoteknodell {
+    margin-top: 20%;
+    width: 55%;
+  }
+
+  .siteemcontrucao {
+    font-size: 300%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .areas p {
+    font-size: 130%;
+  }
+
+  .contatos {
+    width: 34%;
+    margin-left: 33%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+  }
+
+  .socio2 {
+    float: left;
+  }
+  
+  .socio1 h1{
+    font-size: 150%;
+  }
+
+  .socio2 h1 {
+    font-size: 150%;
+  }
+
+  .item-lista p {
+    font-size: 130%;
+  }
+
+  .icons {
+      width: 27px;
+      height: 27px;
+      margin-top: 20px;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  
+  .logo {
+    height: 45%;
+  }
+
+  .logoteknodell {
+    margin-top: 3%;
+    width: 35%;
+  }
+
+  .siteemcontrucao {
+    font-size: 370%;
+  }
+
+  .areas p {
+    font-size: 110%;
+  }
+
+  .contatos {
+    width: 48%;
+    margin-left: 26%;
+    margin-right: 26%;
+    margin-bottom: 3%;
+  }
+
+  .socio2 {
+    float: right;
+  }
+
+  .socio1 h1 {
+    font-size: 200%;
+  }
+
+  .socio2 h1 {
+
+    font-size: 200%;
+  }
+
+  .item-lista p {
+    font-size: 150%;
+  }
+
+  .icons {
+    width: 27px;
+    height: 27px;
+    margin-top: 25px;
+  }
+}
