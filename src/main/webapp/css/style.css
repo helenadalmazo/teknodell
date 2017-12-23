@@ -1,63 +1,62 @@
 @font-face{
-  font-family: "Siemens Global Bond";
-  src: url('siemens_global_bold.ttf');
+font-family: "Siemens Global Bond";
+src: url('siemens_global_bold.ttf');
 }
 
 @font-face{
-  font-family: "Siemens Global Roman";
-  src: url('siemens_global_roman.ttf');
+font-family: "Siemens Global Roman";
+src: url('siemens_global_roman.ttf');
 }
 
 html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 .container {
-  height: 100%;
-  width: 100%;
+	height: 100%;
+	width: 100%;
 }
-  
+
 h1 {
-  font-family: "Siemens Global Bond";
-  color: #788791;
+	font-family: "Siemens Global Bond";
+	color: #788791;
 }
 
 p {
-  font-family: "Siemens Global Roman";
-  color: #788791;
+	font-family: "Siemens Global Roman";
+	color: #788791;
 }
 
 .container2 {
-  z-index: 1;
-  height: 100%;
-    width: 100%;
-    text-align: center;
-    /*
-    justify-content: center;
-    display: flex;  
-    */
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	/*
+	justify-content: center;
+	display: flex;  
+	*/
 }
 
 .logo {
 }
 
 .logoteknodell {
-	
 	z-index: 1;
 }
 
 .contatos {
-  position: absolute;
-  bottom: 0;
+	position: absolute;
+	bottom: 0;
 }
 
 /*
 .socio {
-  /*width: 50%;
-  float: right;
-  height: 100%;
+/*width: 50%;
+float: right;
+height: 100%;
 }
 */
 
@@ -80,36 +79,34 @@ p {
 }
 
 .lista-contato {
-  list-style: none;
-  -webkit-padding-start: 0;
+	list-style: none;
+	-webkit-padding-start: 0;
 }
 
 .item-lista {
-  display: flex;
-  margin-bottom: -10px;
-  
+	display: flex;
+	margin-bottom: -10px;
 }
 
 .item-lista p {
-  margin-left: 4%;
-  margin-bottom: 0;
+	margin-left: 4%;
+	margin-bottom: 0;
 }
 
 .icons {
 }
 
 .nome {
-  position: relative;
-  margin-bottom: -20px;
+	position: relative;
+	margin-bottom: -20px;
 }
 
 .footer {
-  position: relative;
-  bottom: 0;
-  height: 70px;
-  margin-left: 20%;
-  margin-right: 20%;
-  
+	position: relative;
+	bottom: 0;
+	height: 70px;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 .areas {
@@ -117,7 +114,7 @@ p {
 }
 
 .areas li {
-  display: inline-block;
+	display: inline-block;
 }
 
 .areas p {
@@ -144,171 +141,231 @@ p {
 /* Media queries*/
 @media (max-width: 767px) {
 
-  .esquerda {
-    width: 80px;
-  }
+	.esquerda {
+		width: 80px;
+	}
 
-  .direita {
-    width: 80px;
-  }
+	.direita {
+		width: 80px;
+	}
 
-  .logo {
-    height: 40%;
-  }
+	.logo {
+		height: 40%;
+	}
 
-  .logoteknodell {
-    margin-top: 20%;
-    width: 55%;
-  }
+	.logoteknodell {
+		margin-top: 20%;
+		width: 55%;
+	}
 
-  .siteemcontrucao {
-    font-size: 180%;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-  }
+	.siteemcontrucao {
+		font-size: 180%;
+		width: 50%;
+		margin-left: 25%;
+		margin-right: 25%;
+	}
 
-  .areas p {
-    font-size: 60%;
-  }
+	.areas p {
+		font-size: 60%;
+	}
 
-  .contatos {
-    width: 34%;
-    margin-left: 30%;
-    margin-right: 33%;
-    margin-bottom: 5%;
-  }
+	.contatos {
+		width: 34%;
+		margin-left: 30%;
+		margin-right: 33%;
+		margin-bottom: 5%;
+	}
 
-  .socio2 {
-    float: left;
-  }
-  
-  .socio1 h1{
-    font-size: 100%;
-  }
+	.socio2 {
+		float: left;
+	}
 
-  .socio2 h1 {
-    font-size: 100%;
-  }
+	.socio1 h1{
+		font-size: 100%;
+	}
 
-  .item-lista p {
-    font-size: 80%;
-  }
+	.socio2 h1 {
+		font-size: 100%;
+	}
 
-  .icons {
-      width: 15px;
-      height: 15px;
-      margin-top: 15px;
-  }
+	.item-lista p {
+		font-size: 80%;
+	}
+
+	.icons {
+		width: 15px;
+		height: 15px;
+		margin-top: 15px;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 1335px)  {
 
-  .esquerda {
-    width: 180px;
-  }
+	.esquerda {
+		width: 180px;
+	}
 
-  .direita {
-    width: 180px;
-  }
+	.direita {
+		width: 180px;
+	}
 
-  .logo {
-    height: 40%;
-  }
+	.logo {
+		height: 40%;
+	}
 
-  .logoteknodell {
-    margin-top: 20%;
-    width: 55%;
-  }
+	.logoteknodell {
+		margin-top: 20%;
+		width: 55%;
+	}
 
-  .siteemcontrucao {
-    font-size: 300%;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-  }
+	.siteemcontrucao {
+		font-size: 380%;
+		width: 50%;
+		margin-left: 25%;
+		margin-right: 25%;
+	}
 
-  .areas p {
-    font-size: 130%;
-  }
+	.areas p {
+		font-size: 160%;
+	}
 
-  .contatos {
-    width: 34%;
-    margin-left: 33%;
-    margin-right: 30%;
-    margin-bottom: 5%;
-  }
+	.contatos {
+		width: 34%;
+		margin-left: 33%;
+		margin-right: 30%;
+		margin-bottom: 5%;
+	}
 
-  .socio2 {
-    float: left;
-  }
-  
-  .socio1 h1{
-    font-size: 150%;
-  }
+	.socio2 {
+		float: left;
+	}
 
-  .socio2 h1 {
-    font-size: 150%;
-  }
+	.socio1 h1{
+		font-size: 165%;
+	}
 
-  .item-lista p {
-    font-size: 130%;
-  }
+	.socio2 h1 {
+		font-size: 165%;
+	}
 
-  .icons {
-      width: 27px;
-      height: 27px;
-      margin-top: 20px;
-  }
+	.item-lista p {
+		font-size: 180%;
+	}
+
+	.icons {
+		width: 30px;
+		height: 30px;
+		margin-top: 30px;
+	}
 
 }
 
+@media (max-width: 1335px) and (min-width: 768px) and (orientation : landscape) {
+	
+	.esquerda {
+		width: 180px;
+	}
+
+	.direita {
+		width: 180px;
+	}
+
+	.logo {
+		height: 40%;
+	}
+
+	.logoteknodell {
+		margin-top: 2%;
+		width: 30%;
+	}
+
+	.siteemcontrucao {
+		font-size: 250%;
+		width: 50%;
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+
+	.areas p {
+		font-size: 115%;
+	}
+
+	.contatos {
+		width: 56%;
+		margin-left: 22%;
+		margin-right: 22%;
+		margin-bottom: 1%;
+	}
+
+	.socio2 {
+		float: right;
+	}
+
+	.socio1 h1{
+		font-size: 140%;
+	}
+
+	.socio2 h1 {
+		font-size: 140%;
+	}
+
+	.item-lista p {
+		font-size: 120%;
+	}
+
+	.icons {
+		width: 20px;
+		height: 20px;
+		margin-top: 20px;
+	}
+}
+
 @media (min-width: 1024px) {
-  
-  .logo {
-    height: 45%;
-  }
 
-  .logoteknodell {
-    margin-top: 3%;
-    width: 35%;
-  }
+	.logo {
+		height: 45%;
+	}
 
-  .siteemcontrucao {
-    font-size: 370%;
-  }
+	.logoteknodell {
+		margin-top: 3%;
+		width: 35%;
+	}
 
-  .areas p {
-    font-size: 110%;
-  }
+	.siteemcontrucao {
+		font-size: 370%;
+	}
 
-  .contatos {
-    width: 48%;
-    margin-left: 26%;
-    margin-right: 26%;
-    margin-bottom: 3%;
-  }
+	.areas p {
+		font-size: 110%;
+	}
 
-  .socio2 {
-    float: right;
-  }
+	.contatos {
+		width: 48%;
+		margin-left: 26%;
+		margin-right: 26%;
+		margin-bottom: 3%;
+	}
 
-  .socio1 h1 {
-    font-size: 200%;
-  }
+	.socio2 {
+		float: right;
+	}
 
-  .socio2 h1 {
+	.socio1 h1 {
+		font-size: 200%;
+	}
 
-    font-size: 200%;
-  }
+	.socio2 h1 {
+		font-size: 200%;
+	}
 
-  .item-lista p {
-    font-size: 150%;
-  }
+	.item-lista p {
+		font-size: 150%;
+	}
 
-  .icons {
-    width: 27px;
-    height: 27px;
-    margin-top: 25px;
-  }
+	.icons {
+		width: 27px;
+		height: 27px;
+		margin-top: 25px;
+	}
+
 }
