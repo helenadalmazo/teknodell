@@ -24,6 +24,13 @@ h1 {
 	color: #788791;
 }
 
+h3 {
+	font-family: "Siemens Global Bond";
+	color: #788791;
+	-webkit-margin-after: 0;
+    -webkit-margin-before: 0;
+}
+
 p {
 	font-family: "Siemens Global Roman";
 	color: #788791;
@@ -111,6 +118,8 @@ height: 100%;
 
 .areas {
 	-webkit-padding-start: 0;
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
 }
 
 .areas li {
